@@ -75,7 +75,7 @@ export const navItems = [
       title: "Animated Sushi Website",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/sushiMan.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/html5.svg", "/css3.svg", "/vercel.svg"],
       link: "https://sushi-website-weld.vercel.app/",
     },
     {
@@ -83,7 +83,7 @@ export const navItems = [
       title: "CineIt- Big Data Video Recommendation System Desktop App",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/CineIt.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/nodeJs.svg", "/vite.svg", "/mongo.svg"],
       link: "https://myahmue80.wixstudio.com/cineit",
     },
     {
@@ -91,7 +91,7 @@ export const navItems = [
       title: "Used Car Platform",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/CarWebsite.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/prisma.svg", "/vercel.svg"],
       link: "https://super-mario-bay.vercel.app",
     },
     {
@@ -99,7 +99,7 @@ export const navItems = [
       title: "Nexus Nova NameCard",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/NexusNova.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/Dice1111/nexusnovamain",
     },
   ];
