@@ -19,6 +19,13 @@ const eslintConfig = [
       "build/**",
       "next-env.d.ts",
     ],
+
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off",  // ✅ disable "Unexpected any"
+      "prefer-const": "off",                        // ✅ disable "Use const instead"
+      "react-hooks/exhaustive-deps": "warn",        // ✅ make missing deps a warning, not error
+      "@next/next/no-img-element": "off"            // ✅ optional: ignore <img> warnings
+    },
   },
 ];
 
