@@ -100,7 +100,7 @@ export const navItems = [
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/NexusNova.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-      link: "https://github.com/Dice1111/nexusnovamain",
+      link: "https://nexusnova-two.vercel.app",
     },
   ];
   
