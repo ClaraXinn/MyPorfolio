@@ -1,3 +1,19 @@
+export interface Project {
+  id: number;
+  title: string;
+  des: string;
+  img: string;
+  iconLists: string[];
+  link: string;
+  credentials?: {
+    buyer: { email: string; password: string };
+    seller: { email: string; password: string };
+    admin: { email: string; password: string };
+    agent: { email: string; password: string };
+  };
+}
+
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -93,6 +109,12 @@ export const navItems = [
       img: "/CarWebsite.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/prisma.svg", "/vercel.svg"],
       link: "https://super-mario-bay.vercel.app",
+      credentials: {
+        buyer: { email: "buyer@gmail.com", password: "buyer1111" },
+        seller: { email: "seller@gmail.com", password: "seller1111" },
+        admin: { email: "admin@gmail.com", password: "admin1111" },
+        agent: { email: "agent@gmail.com", password: "agent1111" },
+      },
     },
     {
       id: 4,
