@@ -89,7 +89,7 @@ export const navItems = [
     {
       id: 1,
       title: "Animated Sushi Website",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      des: "A visually engaging sushi website featuring smooth animations and a modern, responsive design to enhance user experience.",
       img: "/sushiMan.png",
       iconLists: ["/html5.svg", "/css3.svg", "/vercel.svg"],
       link: "https://sushi-website-weld.vercel.app/",
@@ -97,7 +97,7 @@ export const navItems = [
     {
       id: 2,
       title: "CineIt- Big Data Video Recommendation System Desktop App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      des: "A desktop-based big data video recommendation system that provides personalized movie suggestions based on user preferences and interaction history.",
       img: "/CineIt.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/vite.svg", "/mongo.svg"],
       link: "https://myahmue80.wixstudio.com/cineit",
@@ -105,7 +105,7 @@ export const navItems = [
     {
       id: 3,
       title: "Used Car Platform",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      des: "A multi-role used car marketplace platform supporting buyers, sellers, agents, and admins, with features for listings, management, and role-based access.",
       img: "/CarWebsite.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/prisma.svg", "/vercel.svg"],
       link: "https://super-mario-bay.vercel.app",
@@ -119,10 +119,18 @@ export const navItems = [
     {
       id: 4,
       title: "Nexus Nova NameCard",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      des: "A digital name card website showcasing personal branding with a clean layout, smooth interactions, and responsive design.Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/NexusNova.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://nexusnova-two.vercel.app",
+    },
+    {
+      id: 5,
+      title: "University Library",
+      des: "A production-ready University Library Management System using PostgreSQL, optimized database queries, and automated notification workflows.",
+      img: "/uniLibrary.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/postgresql.svg"],
+      link: "https://myuniversity.space/",
     },
   ];
   
